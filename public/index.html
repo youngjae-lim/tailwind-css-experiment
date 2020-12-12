@@ -21,7 +21,7 @@
           </div>
           <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end border-r-4 border-white hover:border-primary">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white transition duration-500 ease hover:border-primary">
                 <span>Home</span>
                 <svg
                   class="w-5 ml-2"
@@ -40,7 +40,7 @@
               </a>
             </li>
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end border-r-4 border-white hover:border-primary">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white transition duration-500 ease hover:border-primary">
                 <span>About</span>
                 <svg
                   class="w-5 ml-2"
@@ -59,7 +59,7 @@
               </a>
             </li>
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end border-r-4 border-white hover:border-primary">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white transition duration-500 ease hover:border-primary">
                 <span>Contact</span>
                 <svg
                   class="w-5 ml-2"
@@ -83,15 +83,16 @@
       <!-- End of Nav-->
 
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
+        <!-- Log In/Sign Up -->
         <div class="flex justify-center md:justify-end">
           <a
             href="#"
-            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            class="btn text-primary border-primary md:border-2 transition duration-500 ease hover:bg-primary hover:text-white"
             >Log in</a
           >
           <a
             href="#"
-            class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
+            class="btn text-primary ml-2 border-primary md:border-2 transition duration-500 hover:bg-primary hover:text-white"
             >Sign up</a
           >
         </div>
@@ -108,7 +109,7 @@
 
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!-- Cards go here -->
-            <div class="card hover:shadow-lg">
+            <div class="card hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in">
               <img
                 src="img/stew.jpg"
                 alt="stew"
@@ -139,7 +140,7 @@
               </div>
             </div>
 
-            <div class="card hover:shadow-lg">
+            <div class="card hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in">
               <img
                 src="img/noodles.jpg"
                 alt="noodles"
@@ -170,7 +171,7 @@
               </div>
             </div>
 
-            <div class="card hover:shadow-lg">
+            <div class="card hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in">
               <img
                 src="img/curry.jpg"
                 alt="curry"
@@ -212,7 +213,7 @@
         </div>
 
         <div class="flex justify-center">
-          <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load more</div>
+          <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transition duration-500 transform hover:scale-110 hover:bg-opcity-50">Load more</div>
         </div>
       </main>
     </div>
